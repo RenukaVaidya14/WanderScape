@@ -4,8 +4,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 
+
 export default function App() {
   const [selectedImg, setSelectedImg] = useState(null);
+  
 
   const destinations = [
     {
